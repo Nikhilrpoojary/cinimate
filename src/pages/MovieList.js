@@ -6,10 +6,10 @@ export const MovieList = ({apiPath}) => {
   const {data : movies} = useFetch(apiPath);
   
   return (
-    <main >
+    <main>
       <section className="max-w-7xl mx-auto py-7">
-        <div className="flex justify-start flex-wrap">
-          {movies && movies.map((movie)=>(
+        <div className="flex justify-start flex-wrap other:justify-evenly">       
+          {movies && movies.map((movie) => (
             <Card key={movie.id} movie={movie} />
           ))}
         </div>
