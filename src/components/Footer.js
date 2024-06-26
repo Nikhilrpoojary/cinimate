@@ -9,7 +9,7 @@ export const Footer = () => {
                   <a href="#" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6 ">Instagram</a>
               </li>
               <li>
-                  <a href="#" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/nikhilrpoojary0205" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
               </li>
               <li>
                   <a href="#" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6">Youtube</a>
